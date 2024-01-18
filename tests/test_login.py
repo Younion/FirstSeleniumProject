@@ -16,11 +16,11 @@ class TestPositiveScenarios:
 
         # Type email into email field
         email_locator = driver.find_element(By.XPATH, "//input[@id='id_username']")
-        email_locator.send_keys("younion@gmail.com")
+        email_locator.send_keys("")
      
         # Type password into Password field
         password_locator = driver.find_element(By.XPATH, "//input[@id='id_password']")
-        password_locator.send_keys("WTFzeldaforever!")
+        password_locator.send_keys("")
 
         # Push Login button
         submit_locator = driver.find_element(By.XPATH, "//section[@id='login']//form[@method='POST']/button[@type='submit']")
@@ -54,11 +54,11 @@ class TestPositiveScenarios:
 
         # Type email into email field
         email_locator = driver.find_element(By.XPATH, "//input[@id='id_username']")
-        email_locator.send_keys("younion@outlook.com")
+        email_locator.send_keys("")
      
         # Type password into Password field
         password_locator = driver.find_element(By.XPATH, "//input[@id='id_password']")
-        password_locator.send_keys("wrongpassword!")
+        password_locator.send_keys("")
 
         # Push Login button
         submit_locator = driver.find_element(By.XPATH, "//section[@id='login']//form[@method='POST']/button[@type='submit']")
